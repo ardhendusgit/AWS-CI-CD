@@ -2,6 +2,8 @@
 
 This project outlines the process of setting up a CI/CD pipeline using AWS services to deploy an application on AWS Elastic Beanstalk. The pipeline makes use of AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline.
 
+![Pipeline](src/CICD-AWS-Diagram.jpeg)
+
 ## Overview
 AWS CodeCommit is chosen to store the  source code, AWS CodeBuild for building artifacts, AWS CodeDeploy for deploying to AWS Elastic Beanstalk, and AWS CodePipeline to orchestrate the entire CI/CD workflow.
 
